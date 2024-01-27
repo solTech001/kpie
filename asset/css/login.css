@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+body{
+    background-color: rgb(13, 13, 61);
+    margin: 30px 40px;
+}
+.container .wrapper{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.container .wrapper span{
+    color: rgb(215, 159, 16);
+}
+.container h4{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.container form{
+    width: 600px;
+    background-color: white;
+    margin: 0px auto;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+.container form span{
+    color: red;
+}
+.container form div{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.container form input{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.container form button{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(215, 159, 16);
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+}
+.container .form-footer{
+    text-align: center;
+}
+.container .form-footer p{
+    padding-bottom: 5px;  
+}
+.container .form-footer span{
+    color:rgb(215, 159, 16) ;
+}
+.container .form-footer p span a{
+    color:rgb(215, 159, 16) ;
+}
+footer{
+    padding-top: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.683);
+}
+footer a{
+    color:rgb(215, 159, 16)  ;
+}
